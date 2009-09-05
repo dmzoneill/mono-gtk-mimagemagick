@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ItemType>PackagingProject</ItemType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{18D15C41-A6DD-4751-97F3-00B0327B9D90}</ProjectGuid>
+    <Packages>
+      <Packages xmlns="">
+        <Package name="Mono Makefile Sources">
+          <Builder targetFile="Mimagemagick-.tar.gz" format="MonoDevelop.Projects.FileFormat" ctype="SourcesZipPackageBuilder">
+            <ChildEntries>
+              <SolutionItemReference path="Mimagemagick\Mimagemagick.csproj" />
+            </ChildEntries>
+            <RootEntry path="Mimagemagick.sln" id="Mimagemagick" />
+          </Builder>
+        </Package>
+      </Packages>
+    </Packages>
+  </PropertyGroup>
+</Project>
