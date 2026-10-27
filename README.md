@@ -1,5 +1,9 @@
 # Mimagemagick
 
+<p align="center">
+  <img src=".github/logo.png" alt="mono-gtk-mimagemagick logo" width="128" />
+</p>
+
 A Mono GTK# frontend for ImageMagick.
 
 ## What it does
